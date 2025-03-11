@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Chuyển đổi tiếng Việt có dấu thành không dấu | Tag html | Học web chuẩn</title>
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0">
+<meta name="description" content="Chuyển đổi tiếng Việt có dấu thành không dấu giúp bạn chuyển đổi các từ trong đoạn văn có dấu thành không dấu." />
+<meta name="keywords" content="change words tools,tiếng việt có dấu thành không dấu,có dấu thành không dấu,co dau thanh khong dau,đổi tiếng việt có dấu thành không dấu,html tool" />
+<link rel="stylesheet" href="/common/css/reset.css" media="screen,print" />
+<link rel="stylesheet" href="/common/css/modules.css" media="screen,print" />
+<link rel="stylesheet" href="css/tools.css" media="screen,print" />
+<link rel="contents" href="/" title="HOME" />
+<script src="/common/js/jquery-1.8.3.js"></script>
+<script src="/common/js/generator_tools.js"></script>
+<script src="/common/js/change_words.js"></script>
+</head>
+<body onload="clickCheck(740);" id="change_words">
+<div id="preloader">
+<div class="gooey">
+<span class="dot"></span>
+<div class="dots">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PTP3TV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PTP3TV');</script>
+
+<div id="page-wrapper">
+<div id="layout">
+<h1><a href="/"><img src="/common/images/logo.png" alt="Học web chuẩn" /></a></h1>
+<div class="ads-header">
+<ins class="adsbygoogle" style="display:inline-block;width:640px;height:90px" data-ad-client="ca-pub-8832765085554714" data-ad-slot="9387326971"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<nav id="gNav">
+<div class="menu">
+<span class="bdr-t"></span>
+</div>
+<div class="gnavInner">
+<div class="inner">
+<ul>
+<li class="sub" id="gNav01">
+<p><a href="/reference/generator/">CSS3 Generator <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/generator/background_gradient.php">Background-gradient</a></li>
+<li><a href="/reference/generator/background_transparence.php">background transparence</a></li>
+<li><a href="/reference/generator/border_radius.php">Border-radius</a></li>
+<li><a href="/reference/generator/box_shadow.php">Box-shadow</a></li>
+<li><a href="/reference/generator/flex_box.php">Flex box</a></li>
+<li><a href="/reference/generator/transform.php">Transform</a></li>
+<li><a href="/reference/generator/transform_3d.php">Transform 3D</a></li>
+<li><a href="/reference/generator/multi_column.php">Multiple column</a></li>
+<li><a href="/reference/generator/text_shadow.php">Text-shadow</a></li>
+<li><a href="/reference/generator/text_editor.php">Text editor</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav02">
+<p><a href="/reference/generator/generator_tools.php">Generator Tools <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/generator/layout_blocklist.php">Block float generator</a></li>
+<li><a href="/reference/generator/layout_blocklist_percent.php">Block float percent generator</a></li>
+<li><a href="/reference/tools/lorem_ipsum.php">Text dummy paragraph (Lorem Ipsum)</a></li>
+<li><a href="/reference/tools/lorem_ipsum_list.php">Text dummy list (Lorem Ipsum)</a></li>
+<li><a href="/reference/generator/dummy-image/">Image dummy generator</a></li>
+<li><a href="/reference/generator/qrcode.php">QR Code generator</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav03">
+<p><a href="/reference/tools/">Web Tools <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/tools/count_character.php">Đếm ký tự</a></li>
+<li><a href="/reference/tools/count_words.php">Đếm từ</a></li>
+<li><a href="/reference/tools/change_entities.php">Chuyển đổi các ký tự đặc biệt</a></li>
+<li><a href="/reference/tools/change_words.php">Đổi tiếng Việt có dấu thành không dấu</a></li>
+<li><a href="/reference/tools/remove_html_code.php">Loại bỏ code html</a></li>
+<li><a href="/reference/tools/mathematic.php">Tính toán</a></li>
+<li><a href="/reference/tools/convert_image_to_webp.php">Chuyển đổi image thành WebP</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav04">
+<p><a href="/reference/random/">Random Tools <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/random/random-word.php">Random word</a></li>
+<li><a href="/reference/random/random-number.php">Random number</a></li>
+<li><a href="/reference/random/random-list.php">Random list</a></li>
+<li><a href="/reference/random/random-group.php">Random group</a></li>
+<li><a href="/reference/random/random-password.php">Random password</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav05">
+<p><a href="/reference/tester/responsive.php">Others <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/tester/responsive.php">Responsive</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<h2 class="bHead">Chuyển đổi tiếng Việt có dấu thành không dấu</h2>
+<ul class="toolsList">
+<li class="count_character"><a href="/reference/tools/count_character.php">Count characters</a></li>
+<li class="count_words"><a href="/reference/tools/count_words.php">Count words</a></li>
+<li class="change_entities"><a href="/reference/tools/change_entities.php">Chuyển đổi ký tự đặc biệt</a></li>
+<li class="change_words"><a href="/reference/tools/change_words.php">Có dấu thành không dấu</a></li>
+<li class="remove_html_code"><a href="/reference/tools/remove_html_code.php">Loại bỏ code html</a></li>
+<li class="caculator"><a href="/reference/tools/mathematic.php">Tính toán</a></li>
+<li class="webp"><a href="/reference/tools/convert_image_to_webp.php">Chuyển đổi image thành WebP</a></li>
+</ul>
+<section id="pageBody">
+<div class="block box">
+<p>Nhập text vào ô bên dưới và click &quot;Chuyển đổi&quot; để chuyển tiếng Việt có dấu thành không dấu.</p>
+<p class="inputText"><textarea cols="50" rows="10"></textarea></p>
+<p class="buttonList"><select id="styleChange" class="selectH">
+<option value="textMark">Chỉ chữ có dấu</option>
+<option value="mark">Chỉ dấu câu</option>
+<option value="both">Cả chữ có dấu và dấu câu</option>
+</select> <button class="btn">Chuyển đổi</button></p>
+<p class="result"><textarea cols="50" rows="10" readonly="readonly"></textarea></p>
+</div>
+</section>
+</div>
+
+<div id="footer">
+<div id="footerInner">
+<p id="copyright">(C) 2011-2021 Học Web Chuẩn All Rights Reserved.</p>
+<div class="fSection">
+<ul>
+<li id="fNavHome"><a href="/">Trang chủ</a></li>
+<li id="fNavAbout"><a href="/about.php">Giới thiệu</a></li>
+<li id="fNavContact"><a href="/contact/index.php">Góp ý - Liên hệ</a></li>
+<li id="fNavSitemap"><a href="/sitemap/">Site map</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script></body>
+</html><!DOCTYPE HTML>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Chuyển đổi tiếng Việt có dấu thành không dấu | Tag html | Học web chuẩn</title>
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0">
+<meta name="description" content="Chuyển đổi tiếng Việt có dấu thành không dấu giúp bạn chuyển đổi các từ trong đoạn văn có dấu thành không dấu." />
+<meta name="keywords" content="change words tools,tiếng việt có dấu thành không dấu,có dấu thành không dấu,co dau thanh khong dau,đổi tiếng việt có dấu thành không dấu,html tool" />
+<link rel="stylesheet" href="/common/css/reset.css" media="screen,print" />
+<link rel="stylesheet" href="/common/css/modules.css" media="screen,print" />
+<link rel="stylesheet" href="css/tools.css" media="screen,print" />
+<link rel="contents" href="/" title="HOME" />
+<script src="/common/js/jquery-1.8.3.js"></script>
+<script src="/common/js/generator_tools.js"></script>
+<script src="/common/js/change_words.js"></script>
+</head>
+<body onload="clickCheck(740);" id="change_words">
+<div id="preloader">
+<div class="gooey">
+<span class="dot"></span>
+<div class="dots">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PTP3TV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PTP3TV');</script>
+
+<div id="page-wrapper">
+<div id="layout">
+<h1><a href="/"><img src="/common/images/logo.png" alt="Học web chuẩn" /></a></h1>
+<div class="ads-header">
+<ins class="adsbygoogle" style="display:inline-block;width:640px;height:90px" data-ad-client="ca-pub-8832765085554714" data-ad-slot="9387326971"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<nav id="gNav">
+<div class="menu">
+<span class="bdr-t"></span>
+</div>
+<div class="gnavInner">
+<div class="inner">
+<ul>
+<li class="sub" id="gNav01">
+<p><a href="/reference/generator/">CSS3 Generator <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/generator/background_gradient.php">Background-gradient</a></li>
+<li><a href="/reference/generator/background_transparence.php">background transparence</a></li>
+<li><a href="/reference/generator/border_radius.php">Border-radius</a></li>
+<li><a href="/reference/generator/box_shadow.php">Box-shadow</a></li>
+<li><a href="/reference/generator/flex_box.php">Flex box</a></li>
+<li><a href="/reference/generator/transform.php">Transform</a></li>
+<li><a href="/reference/generator/transform_3d.php">Transform 3D</a></li>
+<li><a href="/reference/generator/multi_column.php">Multiple column</a></li>
+<li><a href="/reference/generator/text_shadow.php">Text-shadow</a></li>
+<li><a href="/reference/generator/text_editor.php">Text editor</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav02">
+<p><a href="/reference/generator/generator_tools.php">Generator Tools <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/generator/layout_blocklist.php">Block float generator</a></li>
+<li><a href="/reference/generator/layout_blocklist_percent.php">Block float percent generator</a></li>
+<li><a href="/reference/tools/lorem_ipsum.php">Text dummy paragraph (Lorem Ipsum)</a></li>
+<li><a href="/reference/tools/lorem_ipsum_list.php">Text dummy list (Lorem Ipsum)</a></li>
+<li><a href="/reference/generator/dummy-image/">Image dummy generator</a></li>
+<li><a href="/reference/generator/qrcode.php">QR Code generator</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav03">
+<p><a href="/reference/tools/">Web Tools <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/tools/count_character.php">Đếm ký tự</a></li>
+<li><a href="/reference/tools/count_words.php">Đếm từ</a></li>
+<li><a href="/reference/tools/change_entities.php">Chuyển đổi các ký tự đặc biệt</a></li>
+<li><a href="/reference/tools/change_words.php">Đổi tiếng Việt có dấu thành không dấu</a></li>
+<li><a href="/reference/tools/remove_html_code.php">Loại bỏ code html</a></li>
+<li><a href="/reference/tools/mathematic.php">Tính toán</a></li>
+<li><a href="/reference/tools/convert_image_to_webp.php">Chuyển đổi image thành WebP</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav04">
+<p><a href="/reference/random/">Random Tools <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/random/random-word.php">Random word</a></li>
+<li><a href="/reference/random/random-number.php">Random number</a></li>
+<li><a href="/reference/random/random-list.php">Random list</a></li>
+<li><a href="/reference/random/random-group.php">Random group</a></li>
+<li><a href="/reference/random/random-password.php">Random password</a></li>
+</ul>
+</li>
+<li class="sub" id="gNav05">
+<p><a href="/reference/tester/responsive.php">Others <i class="fa fa-angle-down ml5"></i></a></p>
+<ul>
+<li><a href="/reference/tester/responsive.php">Responsive</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<h2 class="bHead">Chuyển đổi tiếng Việt có dấu thành không dấu</h2>
+<ul class="toolsList">
+<li class="count_character"><a href="/reference/tools/count_character.php">Count characters</a></li>
+<li class="count_words"><a href="/reference/tools/count_words.php">Count words</a></li>
+<li class="change_entities"><a href="/reference/tools/change_entities.php">Chuyển đổi ký tự đặc biệt</a></li>
+<li class="change_words"><a href="/reference/tools/change_words.php">Có dấu thành không dấu</a></li>
+<li class="remove_html_code"><a href="/reference/tools/remove_html_code.php">Loại bỏ code html</a></li>
+<li class="caculator"><a href="/reference/tools/mathematic.php">Tính toán</a></li>
+<li class="webp"><a href="/reference/tools/convert_image_to_webp.php">Chuyển đổi image thành WebP</a></li>
+</ul>
+<section id="pageBody">
+<div class="block box">
+<p>Nhập text vào ô bên dưới và click &quot;Chuyển đổi&quot; để chuyển tiếng Việt có dấu thành không dấu.</p>
+<p class="inputText"><textarea cols="50" rows="10"></textarea></p>
+<p class="buttonList"><select id="styleChange" class="selectH">
+<option value="textMark">Chỉ chữ có dấu</option>
+<option value="mark">Chỉ dấu câu</option>
+<option value="both">Cả chữ có dấu và dấu câu</option>
+</select> <button class="btn">Chuyển đổi</button></p>
+<p class="result"><textarea cols="50" rows="10" readonly="readonly"></textarea></p>
+</div>
+</section>
+</div>
+
+<div id="footer">
+<div id="footerInner">
+<p id="copyright">(C) 2011-2021 Học Web Chuẩn All Rights Reserved.</p>
+<div class="fSection">
+<ul>
+<li id="fNavHome"><a href="/">Trang chủ</a></li>
+<li id="fNavAbout"><a href="/about.php">Giới thiệu</a></li>
+<li id="fNavContact"><a href="/contact/index.php">Góp ý - Liên hệ</a></li>
+<li id="fNavSitemap"><a href="/sitemap/">Site map</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script></body>
+</html>
